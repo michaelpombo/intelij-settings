@@ -1,0 +1,5 @@
+<keymap version="1" name="MacOSXMichael" parent="Eclipse (Mac OS X)">
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="meta meta" />
+  </action>
+</keymap>

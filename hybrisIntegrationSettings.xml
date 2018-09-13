@@ -1,0 +1,16 @@
+<application>
+  <component name="HybrisApplicationSettings">
+    <option name="allowedSendingPlainStatistics" value="true" />
+    <option name="sourceCodeDirectory" value="$USER_HOME$/HYBRISCOMM6500P_2-80003045-carrefour/hybris" />
+    <option name="sourceZipUsed" value="false" />
+    <option name="usedActions">
+      <set>
+        <option value="IMPORT_PROJECT" />
+        <option value="REFRESH_PROJECT" />
+        <option value="OPEN_PROJECT" />
+        <option value="BUILD_PROJECT" />
+        <option value="RUN_TESTS" />
+      </set>
+    </option>
+  </component>
+</application>

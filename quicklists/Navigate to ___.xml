@@ -1,0 +1,4 @@
+<list display="Navigate to ...">
+  <action id="GotoImplementation" />
+  <action id="GotoDeclaration" />
+</list>

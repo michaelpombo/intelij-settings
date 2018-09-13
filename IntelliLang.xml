@@ -1,0 +1,12 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JSON" injector-id="java">
+      <display-name>MDC.put (org.slf4j)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("put").withParameters("java.lang.String", "java.lang.String").definedInClass("org.slf4j.MDC"))]]></place>
+    </injection>
+    <injection language="JSON" injector-id="java">
+      <display-name>StructuredArguments.value (net.logstash.logback.argument)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("value").withParameters("java.lang.String", "java.lang.Object").definedInClass("net.logstash.logback.argument.StructuredArguments"))]]></place>
+    </injection>
+  </component>
+</application>
