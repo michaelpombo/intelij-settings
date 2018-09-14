@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="org.slf4j.MDC.put(key,val)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
