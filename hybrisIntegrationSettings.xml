@@ -1,6 +1,7 @@
 <application>
   <component name="HybrisApplicationSettings">
     <option name="allowedSendingPlainStatistics" value="true" />
+    <option name="excludeTestSources" value="true" />
     <option name="sourceCodeDirectory" value="$USER_HOME$/HYBRISCOMM6500P_2-80003045-carrefour/hybris" />
     <option name="sourceZipUsed" value="false" />
     <option name="usedActions">
