@@ -79,15 +79,45 @@
       <option name="INCLUDE" value="true" />
     </filter>
   </component>
+  <component name="NodeRendererSettings">
+    <Renderer ID="ClassRenderer">
+      <option name="SHOW_STATIC" value="true" />
+      <option name="SHOW_STATIC_FINAL" value="true" />
+      <option name="SHOW_FQ_TYPE_NAMES" value="true" />
+      <option name="SHOW_DECLARED_TYPE" value="true" />
+    </Renderer>
+    <CustomRenderers VERSION="8">
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="Livros" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.vibertronic.Livros" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="com.vibertronic.Livros" />
+          <ChildrenExpression Name="livros" OnDemand="true">
+            <TextWithImports text="getLivros()&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="Livros" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="com.vibertronic.Livros" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="com.vibertronic.Livros" />
+          <ChildrenExpression Name="livros" OnDemand="true">
+            <TextWithImports text="getLivros()&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+          <ChildrenExpression Name="">
+            <TextWithImports text="&#13;&#13;JAVA" type="expression" />
+          </ChildrenExpression>
+        </Renderer>
+      </Renderer>
+    </CustomRenderers>
+  </component>
   <component name="XDebuggerSettings">
     <data-views />
     <general />
     <debuggers>
-      <debugger id="javascript">
-        <configuration>
-          <custom-object-presentation />
-        </configuration>
-      </debugger>
       <debugger id="kotlin_debugger">
         <configuration>
           <option name="DEBUG_IS_FILTER_FOR_STDLIB_ALREADY_ADDED" value="true" />
